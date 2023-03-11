@@ -1,0 +1,28 @@
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+header div img {
+  width: 100%;
+}
+header {
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+}
+article {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+article img {
+  height: 200px;
+}
+@media only screen and (max-width: 800px) {
+  section {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  article {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
